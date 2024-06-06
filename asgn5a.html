@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaun Munshi: Assignment 5c</title>
+    <style>
+        body { margin: 0; background-color: white; }
+        canvas { display: block; background-color: transparent; }
+        #score { position: absolute; top: 10px; left: 10px; color: black; font-size: 20px; }
+    </style>
+</head>
+<body>
+    <div id="score">Score: 0</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="asgn5a.js"></script>
+</body>
+<p> Grader Notes: This is my Assignment 5c, dubbed "Block Hunt" after the famous Duck
+    Hunt game. Esssentially, your goal is to shoot as many cubes (diamonds are 10 points,
+    gold is 30 points, and red is -50 points) and prisms (20 points), while avoiding the 
+    cylinders (-20 points). The game will keep going until you hit the obsidian sphere of 
+    death, which will terminate your game. Happy Hunting! (Side Note: I needed ChatGPT's help
+    with the Shoot() function, particularly to determine how to detect the type of the mouse click.
+    For this, I used ChatGPT for the raytracing portion of the code.)
+</p>
+</html>
